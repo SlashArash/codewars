@@ -1,4 +1,6 @@
 <?php
+// https://www.codewars.com/kata/dashatize-it
+
 function dashatize(int $num): string {
   $num = array_map(function($val) {
       if($val & 1)
