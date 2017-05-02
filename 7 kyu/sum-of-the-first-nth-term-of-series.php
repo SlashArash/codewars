@@ -8,4 +8,3 @@ function series_sum(int $n): float {
     }
     return round($resualt, 2);
 }
-echo series_sum(2);

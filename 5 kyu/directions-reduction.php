@@ -11,5 +11,3 @@ function dirReduc(array $arr): array {
     if (strlen($string) == 0) return [];
     return explode("-", $string);
 }
-$a = ["NORTH", "SOUTH","SOUTH", "EAST", "WEST", "NORTH", "WEST"];
-print_r(dirReduc($a));
